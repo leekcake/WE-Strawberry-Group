@@ -1,0 +1,30 @@
+{
+	"file": "index.html",
+	"title": "Strawberry Group",
+	"general": {
+		"supportsaudioprocessing": true,
+		"properties": {
+			"backgroundImg": {
+				"text": "ui_backgroundImg",
+				"type": "file",
+				"order": -1
+			},
+			"backColor": {
+				"text": "ui_backColor",
+				"type": "color",
+				"value": "0 0 0",
+				"order": 1
+			}
+		},
+		"localization": {
+			"en-us": {
+				"ui_backgroundImg": "Background Image",
+				"ui_backColor": "Background color",
+			},
+			"ko-kr": {
+				"ui_backgroundImg": "배경 이미지",
+				"ui_backColor": "배경색"
+			}
+		}
+	}
+}

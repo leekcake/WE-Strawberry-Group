@@ -1,0 +1,3 @@
+[submodule "WE-BaseKit"]
+	path = WE-BaseKit
+	url = https://github.com/leekcake/WE-BaseKit.git

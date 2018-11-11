@@ -1,0 +1,15 @@
+apply plugin: 'kotlin-platform-jvm'
+apply plugin: 'kotlin'
+
+dependencies {
+    expectedBy project(":common")
+    compile "WE-BaseKit:jvm"
+}
+
+task execute(type:JavaExec) {
+    main = "moe.leekcake.we.strawberry.BuilderLauncherKt"
+    args = ["$result_dir"]
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+build.finalizedBy execute

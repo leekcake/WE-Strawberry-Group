@@ -1,0 +1,5 @@
+include ':common', ':js', ':jvm'
+
+project(':js').name = "strawberryJs"
+
+includeBuild('../WE-BaseKit')

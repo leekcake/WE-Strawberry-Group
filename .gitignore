@@ -1,7 +1,6 @@
 build/
 out/
 /js
-/index.html
 /project.json
 /strawberry/local.properties
 /strawberry/.gradle
